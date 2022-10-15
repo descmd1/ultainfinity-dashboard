@@ -14,14 +14,14 @@ const Metric = () => {
             <div className={classes.metric}>
                 <img className={classes.indicator} src={indicator} alt="indicator" />
                 <div>
-                    <h6 className={classes.metricTitle}>Errors: 0,12% </h6>
+                    <h6 className={classes.metricTitle}>Zeroes: 5,12%  </h6>
                     <div className={classes.metricdesc}>Average: 0,11%</div>
                 </div>
             </div>
             <div className={classes.metric}>
                 <img className={classes.indicator} src={indicator} alt="indicator" />
                 <div>
-                    <h6 className={classes.metricTitle}>Errors: 0,12% </h6>
+                    <h6 className={classes.metricTitle}>Timeouts: 0,12%  </h6>
                     <div className={classes.metricdesc}>Average: 0,11%</div>
                 </div>
             </div>
