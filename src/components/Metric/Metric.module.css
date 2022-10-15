@@ -1,0 +1,27 @@
+.metricContainer {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+.metric{
+    display: flex;
+    position: relative;
+    padding-left: 20px;
+}
+.indicator {
+position: absolute;
+left: 0;
+top: 0;
+}
+.metricTitle {
+    font-weight: 600;
+font-size: 16px;
+color: #4A4A4A;
+}
+.metricdesc { 
+    font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #A0B0B9;
+
+}

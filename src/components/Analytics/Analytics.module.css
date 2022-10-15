@@ -1,0 +1,74 @@
+.analyticContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.itemContainer {
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+
+.itemContainer:before {
+    content: "";
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    bottom: 0;
+    height: 1px;
+    width: 80%;
+    border-bottom: 1px solid var(--grey);
+}
+
+.itemContainer:last-child::before {
+    content: '';
+    height: 0;
+    width: 0;
+    border: none;
+}
+
+.imgIcon {}
+
+.analysis {
+    width: 168px;
+}
+
+.analyticTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4A4A4A;
+}
+
+.analyticNumbers {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4A4A4A;
+}
+
+.analyticNumber {
+    color: #A0B0B9;
+}
+
+.analyticInfo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4A4A4A;
+}
+
+.analyticInfor {
+    color: #A0B0B9;
+}
+
+.redlist {
+    color: var(--red);
+}
+
+.bluelist {
+    color: var(--blue);
+}
